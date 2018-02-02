@@ -47,6 +47,17 @@ section{background-color:#FAFAFA;}
 
 #imgViaj{width: 90%;
     padding-left: 24px;
-    
     }
+#iconArriba{
+        width: 60px;
+        height: 60px;
+        border: 0;
+        float: right;
+        position: relative;
+        left: 14%;
+        top: 50%;       
+}
+
+footer {background-color:#FAFAFA;
+        padding: 10px;}
 

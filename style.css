@@ -1,3 +1,15 @@
+body{font-family: 'Montserrat', sans-serif;
+        background-color: #E0E0E0;
+        width: 700px;
+        margin: 149px;
+        margin-top: 10px;
+        }
+
+header{ font-family: sans-serif;
+            background-color: #FAFAFA;
+            color: #FFD54F; }
+header a{text-decoration: none;}
+
 #foto{border-radius: 100px;
             width: 200px;
             position: relative;
@@ -6,27 +18,22 @@
 }
         
 h1{text-align: center;}
-h2{ color:#FFD54F;}
-        
-body{font-family: 'Montserrat', sans-serif;
-        background-color: #E0E0E0;
-        width: 700px;
-        margin: 149px;
-        margin-top: 10px;
-        
-        }
 
+h2{ color:#FFD54F;}
+ 
 p{color:#424242;
     text-align: justify;}
 
-header{ font-family: sans-serif;
-            background-color: #FAFAFA;
-            color: #FFD54F;
-    
-            }
 
-footer {background-color:#FAFAFA;}
- #menu {list-style-type: none;
+#icGit, #icTwt, #icLkdn, {
+        width:50px;
+        height:50px;
+        border:0;
+        float: right; 
+       }
+
+
+#menu {list-style-type: none;
          margin: 0;
          padding: 0;
         overflow: hidden;
@@ -46,14 +53,8 @@ footer {background-color:#FAFAFA;}
     height:42px;
     border:0;}
 
-#icGit, #icTwt, #icLkdn, {
-        width:50px;
-        height:50px;
-        border:0;
-        float: right;
-       
-        
-       }
+section, article{background-color:#FAFAFA;
+                    padding: 10px;}
 
 #iconArriba{
         width: 60px;
@@ -65,14 +66,8 @@ footer {background-color:#FAFAFA;}
         top: 50%;
             
 }
-header a{text-decoration: none;}
-      
-section, article{background-color:#FAFAFA;
-                    padding: 10px;}
 
-#listexp{display: inline;}
-
-ul {color:#424242;
+ ul {color:#424242;
     list-style-type: none;}
 
 {box-sizing:border-box;}
@@ -99,14 +94,17 @@ article table{display: block;
 .ing {width: 65%; background-color: #FFD54F;}
 .cat {width: 25%; background-color: #FFD54F;} 
 
-{
+
+* {
   box-sizing: border-box;
 }
 
- Set a background color 
-body {
+
+/*body {
   background-color: #474e5d;
-  font-family: Helvet
+  font-family: Helvetica, sans-serif;
+}*/
+
 
 .timeline {
   position: relative;
@@ -199,15 +197,15 @@ body {
   border-radius: 6px;
 }
 
-
 @media all and (max-width: 600px) {
-
+/* Place the timelime to the left */
   .timeline::after {
     left: 31px;
   }
 
+
   .container {
-    width: 80%;
+    width: 100%;
     padding-left: 70px;
     padding-right: 25px;
   }
@@ -230,3 +228,6 @@ body {
     left: 0%;
   }
 }
+
+footer {background-color:#FAFAFA;
+        padding: 10px;}
