@@ -1,9 +1,4 @@
-#foto{border-radius: 100px;
-            width: 200px;
-            position: relative;
-           left: 34%;
-            display: inline-block;}
-        
+
 h1{text-align: center;}
 h2{ color:#FFD54F;}
         
@@ -15,14 +10,18 @@ body{font-family: 'Montserrat', sans-serif;
         
         }
 
-p{color:#424242;}
+p{color:#424242;
+    text-align: justify;}
 
-header{ font-family: sans-serif;
+header{ border: 1px solid  #FAFAFA;
+        font-family: 'Montserrat',sans-serif;
             background-color: #FAFAFA;
             color: #FFD54F;
+            margin: 0;
             }
+section, article{background-color:#FAFAFA;
+                    padding: 10px;}
 
-footer {background-color:;}
  #menu {list-style-type: none;
          margin: 0;
          padding: 0;
@@ -39,21 +38,15 @@ footer {background-color:;}
 
 #menu li a:hover{background-color: #ededed;}
 
-#pxpg{width:42px;
-    height:42px;
-    border:0;}
 
-#icGit, #icTwt, #icLkdn, {
-        width:50px;
-        height:50px;
-        border:0;
-        position: relative;
-        left: 70%;
-       }
 header a{text-decoration: none;}
       
 section{background-color:#FAFAFA;}
+#imgLibro{
+    padding: 10%;}
 
-#listexp{display: inline;}
-ul {color:#424242;
-    list-style-type: none;}
+#imgViaj{width: 90%;
+    padding-left: 24px;
+    
+    }
+
